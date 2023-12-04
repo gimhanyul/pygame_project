@@ -81,7 +81,7 @@ def play_blackjack():
     # 게임 루프
     running = True
     while running:
-        screen.fill(WHITE)
+        screen.fill(GREEN)
 
         # 플레이어와 딜러의 카드 그리기
         draw_cards(player_hand, 50, 300)
